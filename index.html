@@ -48,7 +48,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding</h1>
+          <h1 class="title is-1 publication-title"><font color="orange">T</font><font color="lightgreen">AC</font><font color="deepskyblue">O</font>: Benchmarking Generalizable Bimanual <font color="orange">T</font>ool-<font color="lightgreen">AC</font>tion-<font color="deepskyblue">O</font>bject Understanding</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               Yun Liu<sup>1,2,3</sup>,</span>
@@ -137,11 +137,196 @@
     <div class="hero-body">
       <img id="teaser" src="./static/images/teaser.png">
       <h2 class="subtitle has-text-centered">
-        <p>TACO is a large-scale bimanual hand-object manipulation dataset covering extensive tool-action-object combinations in real-world scenarios, supporting test-time generalization to unseen object geometries and novel behavior triplets and benchmarking various generalizable research topics, e.g., action recognition, motion forecasting, and cooperative grasp synthesis.</p>
+        <p><b><font color="orange">T</font><font color="lightgreen">AC</font><font color="deepskyblue">O</font></b> is a large-scale bimanual hand-object manipulation dataset covering extensive tool-action-object combinations in real-world scenarios, supporting test-time generalization to <b>unseen object geometries</b> and <b>novel behavior triplets</b> and benchmarking various generalizable research topics, e.g., action recognition, motion forecasting, and cooperative grasp synthesis.</p>
       </h2>
     </div>
   </div>
 </section>
+
+<!-- Object Shape Diversity -->
+<section class="section">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">Diversity in Object Shapes</h2>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <h3 class="title" style="text-align: center;"><font color="orange">Brush</font></h3>
+          <video id="brush_shapes" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/brush_shapes.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <h3 class="title" style="text-align: center;"><font color="deepskyblue">Plate</font></h3>
+          <video id="matting-video" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/plate_shapes.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Interaction Triplet Diversity -->
+<section class="section">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">Diversity in Interaction Tool-Action-Object Triplets</h2>
+    <div style="text-align:center;">
+      <img id="TAO" src="./static/images/TAO.png" width="60%">
+      <h4>Examples of interaction tool-action-object triplets.</h4>
+    </div>
+    <div class="container is-max-desktop content">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h3 class="title" style="text-align: center;"><font color="lightgreen">Action: Dust</font></h3>
+            <br><br><br><h3 class="title" style="text-align: center;"><font color="deepskyblue">Kettle</font></h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="title" style="text-align: center;"><font color="orange">Brush</font></h3>
+            <video id="dust_brush_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/dust_brush_kettle.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="title" style="text-align: center;"><font color="orange">Roller</font></h3>
+            <video id="dust_roller_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/dust_roller_kettle.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container is-max-desktop content">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <br><br><br><h3 class="title" style="text-align: center;"><font color="deepskyblue">Plate</font></h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_brush_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/dust_brush_plate.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_roller_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/dust_roller_plate.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container is-max-desktop content">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <br><br><br><h3 class="title" style="text-align: center;"><font color="deepskyblue">Box</font></h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_brush_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/dust_brush_box.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_roller_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/dust_roller_box.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container is-max-desktop content">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <h3 class="title" style="text-align: center;"><font color="lightgreen">Action: Stir</font></h3>
+            <br><br><br><h3 class="title" style="text-align: center;"><font color="deepskyblue">Pan</font></h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="title" style="text-align: center;"><font color="orange">Shovel</font></h3>
+            <video id="dust_brush_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/stir_shovel_pan.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="title" style="text-align: center;"><font color="orange">Spoon</font></h3>
+            <video id="dust_roller_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/stir_spoon_pan.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container is-max-desktop content">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <br><br><br><h3 class="title" style="text-align: center;"><font color="deepskyblue">Plate</font></h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_brush_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/stir_shovel_plate.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_roller_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/stir_spoon_plate.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container is-max-desktop content">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <br><br><br><h3 class="title" style="text-align: center;"><font color="deepskyblue">Bowl</font></h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_brush_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/stir_shovel_bowl.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video id="dust_roller_kettle" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/stir_spoon_bowl.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;">
+      <h4>Examples of data sequences under two action types. Hand-object mesh annotations are rendered in these videos.</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Data Capturing and Annotating -->
 
 <!-- Abstract -->
 <section class="section">
